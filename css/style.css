@@ -1,0 +1,222 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-size: 16px;
+	background: url('../img/bg-textura.png');
+}
+
+/* ----- ----- HEADER ----- ----- */
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	overflow: hidden;
+}
+
+header .imagen {
+	max-width: 15%;
+	float: left;
+	margin-top: 30px;
+  display: block;
+  border-radius: 50%!important;
+}
+
+header {
+	width: 100%;
+  background-color: #281a0c;
+	background-size:cover;
+	background-attachment: fixed;
+   background-position: center 0;
+}
+
+header .contenedor {
+	position: relative;
+	height: 100vh;
+}
+
+header .menu {
+	width: 100%;
+	text-align: right;
+}
+
+header .menu a {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 300;
+	display: inline-block;
+	margin: 40px 20px;
+	text-decoration: none;
+	position: relative;
+}
+
+header .menu a:hover {
+	color: #3db643;
+}
+
+header .textos {
+	width: 100%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	margin-top:-52px;
+}
+
+header .textos .nombre {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+header .textos .nombre span {
+	font-weight: 300;
+}
+
+header .textos h3 {
+	font-weight: 300;
+	font-size: 25px;
+	font-style: italic;
+}
+
+/* ------ ----- CONTENT ----- ----- */
+div.content{
+	margin:  auto;
+	padding: 25px;
+	max-width: 1200px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 10px;
+	box-shadow: 20px 11px 15px -9px rgba(0,0,0,0.63);
+	margin-bottom: 30px;
+}
+
+/* ----- ----- FOOTER ----- ----- */
+footer{
+	width: 100%;
+	background: #1e2b38;
+	border-radius: 20px;
+	color: #fff;
+	
+	margin-top: 60px;
+}
+
+.contenedor-footer-all{
+	width: 100%;
+	margin: auto;
+	border-radius: 20px;
+}
+
+.contenedor-footer{
+	display: flex;
+	justify-content: center;
+}
+
+.colum-1{
+	width: 100%;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.colum-1 h1{
+	font-size: 22px;
+	text-align: center;
+}
+.colum-1 p{
+	font-size: 14px;
+	color: #c7c7c7;
+	margin-top: 20px;
+	text-align: justify;
+}
+
+.colum-2{
+	width: 100%;
+	padding: 30px;
+}
+.colum-2 h1{
+	font-size: 22px;
+	text-align: center;
+}
+.colum-2 p{
+	text-align: center;
+}
+.colum-2 .row{
+  margin-top: 16px;
+}
+
+.colum-3{
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	
+}
+.colum-3 h1{
+	margin: 10px;
+	font-size: 22px;
+	text-align: center;
+	
+}
+.colum-3 .row{
+	display: flex;
+	justify-content: center;
+}
+
+.copyright p{
+	border-radius: 3px;
+	padding: 10px;
+	color: #fff;
+	text-align: center;
+	background: #1e9599;
+}
+
+
+/* -------------- GRID ------------*/
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  padding: 1px;
+  }
+
+  /* -------------- MODAL ------------*/
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

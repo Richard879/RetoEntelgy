@@ -1,0 +1,29 @@
+{
+    "paises": [
+      {
+        "id": "1",
+        "nombre": "Perú",
+        "continente": "América"
+      },
+      {
+        "id": "2",
+        "nombre": "Colombia",
+        "continente": "América"
+      },
+      {
+        "id": "3",
+        "nombre": "Italia",
+        "continente": "Europa"
+      },
+      {
+        "id": "4",
+        "nombre": "Argentina",
+        "continente": "América"
+      },
+      {
+        "id": "5",
+        "nombre": "España",
+        "continente": "Europa"
+      }
+    ]
+  }
